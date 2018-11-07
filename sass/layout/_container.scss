@@ -1,0 +1,24 @@
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: $breakpoint-sm) {
+        width: 540px;
+    }
+    
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: $breakpoint-md) {
+        width: 720px;
+    }
+    
+    // Large devices (desktops, 992px and up)
+    @media (min-width: $breakpoint-lg) {
+        width: 960px;
+    }
+    
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: $breakpoint-xl) {
+         width: 1140px;
+    }
+}
